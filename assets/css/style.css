@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.app {
+    color: #808080;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.number-main {
+    color: var(--Black, #000);
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.countdown-function {
+    padding: 57px 88px 34px;
+    border-radius: 20px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 11px 44px -10px rgba(0, 0, 0, 0.25);
+}
+
+.addone {
+    color: var(--Blue, #128DFF);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.prev {
+    color: #7F7F7F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.refreh {
+    padding: 12px;
+    border-radius: 14px;
+    right: 12px;
+    top: 12px;
+    cursor: pointer;
+    opacity: 0;
+    background: var(--White, #FFF);
+    transition: all .3s linear;
+    box-shadow: 0px 11px 44px -10px rgba(0, 0, 0, 0.25);
+}
+
+.refrehopacity {
+    opacity: 1;
+}
+
+.refreh:hover {
+    box-shadow: 0px 11px 44px -10px rgba(0, 0, 0, 0.25) inset;
+}
+
+.addone-button {
+    width: 100%;
+    width: 138px;
+    padding: 13px 35px;
+    border-radius: 4px;
+    border: 1px solid var(--Blue, #128DFF);
+    background-color: transparent;
+    transition: all .2s linear;
+}
+
+.savenumber {
+    color: var(--Black, #000);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.addone:hover {
+    color: #FFF;
+    background: var(--Gradient, linear-gradient(97deg, #128DFF -4.95%, #1444EF 109.04%));
+}
